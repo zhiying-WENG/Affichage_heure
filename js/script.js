@@ -5,8 +5,8 @@ BTN.addEventListener('click', function(){
     CONTENT.textContent = "Hello World";
 });
 function change(){
-    let d=new Date();
-    let heure=d.toLocaleTimeString("fr");
+    const d=new Date();
+    const heure=d.toLocaleTimeString("fr");
     const p=document.querySelector("p.heure");
     
     if (d.getSeconds()%3==0){
